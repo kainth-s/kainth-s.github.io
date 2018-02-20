@@ -1,0 +1,1095 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+#home {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  top: 7rem;
+  left: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 7rem;
+  width: 100%;
+  padding: .5rem;
+  z-index: 10;
+}
+
+body {
+  margin-bottom: 0;
+  background-color: #f5f5f5;
+}
+
+.lotus {
+  top: 0;
+  width: 10%;
+  padding: 1rem;
+}
+
+.harmonytext {
+  font-family: Sans-Serif;
+  font: Verdana;
+  color: #773136;
+  font-size: 2.5rem;
+}
+
+#navigation {
+  background-color: #773136;
+  width: 100%;
+  margin: 0;
+}
+
+.bg-dark {
+  background-color: #773136 !important;
+}
+
+.nav-item {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  font-size: 1.25rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#services {
+  padding-top: 10%;
+  margin-bottom: 0;
+  background-color: #f5f5f5;
+}
+
+.options {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font: Verdana;
+  color: #535353;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.servicesheader {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font: Verdana;
+  color: #535353;
+  text-align: center;
+  line-height: 1.7rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1.25rem;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+table {
+  border: #535353;
+  height: 100%;
+  background-color: white;
+  width: 30rem;
+  margin-left: 10%;
+  margin-right: 0;
+  margin-bottom: 1rem;
+  padding-right: 0;
+}
+
+td {
+  color: #535353;
+  font-size: 1.1rem;
+  width: 25%;
+  font: verdana;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  color: #535353;
+  height: 4rem;
+  padding: .7rem;
+  width: 25%;
+  font: verdana;
+  font-size: 1.2rem;
+}
+
+.minutes {
+  color: #773136;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.name, .email, .phone {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font: Verdana;
+  padding: .25rem;
+  margin-left: 10%;
+  color: #535353;
+}
+
+.name {
+  margin-top: 6rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.apptname, .apptemail, .apptphone {
+  border: 1px solid #535353;
+  width: 17rem;
+  height: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  margin-left: 10%;
+  padding: 1.2rem;
+  background-color: white;
+}
+
+.thirty {
+  margin-right: .25rem;
+  margin-left: 10%;
+  padding: .5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.hour {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 10%;
+  padding: .5rem;
+}
+
+label {
+  margin-right: 2rem;
+}
+
+.pickerheading {
+  z-index: 10;
+  color: #535353;
+  font-size: 1rem;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+#datetimepicker2 {
+  width: 75%;
+  color: #535353;
+}
+
+.form-group {
+  margin-top: .5rem !important;
+}
+
+form {
+  margin-left: 20%;
+  margin-top: 1rem;
+  margin-right: 0;
+  font-size: 1.2rem;
+  font: Verdana;
+}
+
+.form-group {
+  z-index: 100;
+  margin-top: 5rem;
+}
+
+.appointment {
+  margin-top: 1.5rem;
+  margin-left: 19rem;
+  padding: .5rem;
+  color: #535353;
+}
+
+#contact {
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+.button {
+  width: 70%;
+  padding: .5rem;
+  margin-top: .65rem;
+  margin-left: 20%;
+}
+
+.contactname, .contactemail, .contactmessage, .contactbox {
+  margin-left: 20%;
+  height: 1.5rem;
+}
+
+.contactbox {
+  width: 70%;
+  border: 1px solid #535353;
+  height: 2rem;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.messagebox {
+  width: 70%;
+  border: 1px solid #535353;
+  height: 30%;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  margin-left: 20%;
+  padding: 1rem;
+  background-color: white;
+}
+
+.contactmap {
+  width: 70%;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.mapaddress {
+  font-size: 1rem;
+  font-family: sans-serif;
+  font: Verdana;
+  text-align: center;
+  margin-right: 3rem;
+  padding: .2rem;
+}
+
+footer {
+  height: 2.25rem;
+  background-color: #535353;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  padding: 1rem;
+}
+
+.copyright {
+  position: absolute;
+  line-height: 2rem;
+  color: white;
+  font-size: 1rem;
+  bottom: 0;
+  right: 0;
+  padding-right: 1rem;
+  text-align: right;
+  margin: auto;
+  padding: .25rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 349px) {
+  #home {
+    width: 500px;
+    height: 500px;
+    top: 2rem;
+    margin-top: 2rem;
+    margin-left: -590px;
+    image-orientation: center center no-repeat;
+  }
+
+  .navbar {
+    top: 4rem;
+    height: 3.5rem;
+  }
+
+  .harmonytext {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .lotus {
+    top: 0;
+    width: 20%;
+    padding: 1rem;
+  }
+
+  .copyright {
+    text-align: center;
+    padding-right: 1rem;
+    font-size: .75rem;
+  }
+
+  form, .phone, .email, .name {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .servicesheader {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    margin-top: .5rem;
+  }
+
+  #services {
+    padding-top: 20%;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  td {
+    font-size: .8rem;
+  }
+
+  th {
+    font-size: .8rem;
+  }
+
+  .options {
+    padding-bottom: 1rem;
+    font-size: .9rem;
+    line-height: normal;
+  }
+
+  table {
+    width: 100%;
+    margin: 0;
+  }
+
+  th, td {
+    width: 10rem;
+  }
+
+  label {
+    padding: 0;
+    margin: 0;
+  }
+
+  .row {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+
+  .apptname, .apptemail, .apptphone {
+    width: 12rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-left: 10%;
+  }
+
+  .name {
+    margin-top: 4.25rem;
+    margin-bottom: 0;
+  }
+
+  .pickerheading {
+    margin: 0;
+    padding: 0;
+  }
+
+  #datetimepicker2 {
+    margin-left: 2rem;
+  }
+
+.appointmentmessage {
+    margin-top: 10rem !important;
+    z-index: 10;
+    font-weight: bold;
+    color: black;
+  }
+
+  .appointment {
+    margin: 0;
+    margin-left: 2rem;
+  }
+
+  .name, .email, .phone, .contactname, .contactemail, .contactmessage {
+    margin-left: 10%;
+  }
+
+  .contactbox {
+    width: 90%;
+    height: 1.5rem;
+    margin-bottom: .5rem;
+    padding: 0rem;
+    margin-left: 0;
+  }
+
+  .messagebox {
+    height: 25%;
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .mapaddress {
+    margin: 0;
+    text-align: center;
+  }
+
+  #contact {
+    margin-left: 1rem;
+    margin-top: 4.2rem;
+  }
+
+  .contactname, .contactemail, .contactmessage {
+    margin-left: 0;
+  }
+
+  .contactmap {
+    display: none;
+  }
+
+  .button {
+    margin-top: 0rem;
+    width: 90%;
+    padding: 0;
+    margin-bottom: 20%;
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 413px) {
+  #home {
+    width: 500px;
+    height: 500px;
+    top: 4rem;
+    margin-top: 2rem;
+    margin-left: -590px;
+    image-orientation: center center no-repeat;
+  }
+
+  .navbar {
+    top: 5rem;
+    height: 3.5rem;
+  }
+
+  .lotus {
+    top: 0;
+    width: 15%;
+    padding: .5rem;
+  }
+
+  .harmonytext {
+    font-family: sans-serif;
+    color: #773136;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+    padding-right: 1rem;
+    font-size: .75rem;
+  }
+
+  form, .name, .email, .phone {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  #services {
+    padding-top: 20%;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .options {
+    padding-bottom: 10%;
+    line-height: normal;
+  }
+
+  table {
+    width: 100%;
+    margin: 0;
+  }
+
+  th, td {
+    width: 10rem;
+    font-size: 1rem;
+  }
+
+  .row {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+
+  .apptname, .apptemail, .apptphone {
+    width: 75%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+  }
+
+  .name {
+    margin-top: 5.5rem;
+    margin-bottom: 0;
+    margin-left: 10%;
+  }
+
+  .email, .phone {
+    margin-left: 10%;
+  }
+
+  .pickerheading {
+    margin-top: 2%;
+    margin-left: 2rem;
+    margin-bottom: 0;
+  }
+
+  label {
+    padding: 0;
+    font-size: 1rem;
+    margin-right: 0;
+  }
+
+  #datetimepicker2 {
+    margin-left: 2rem;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .appointment {
+    margin: 0;
+    margin-left: 5rem;
+    text-align: center;
+  }
+
+  .thirty {
+    margin-left: 3.5rem;
+    margin-right: 0;
+  }
+
+  .hour {
+    margin-right: 0;
+  }
+
+  .contactbox {
+    width: 90%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .messagebox {
+    height: 35%;
+    width: 90%;
+  }
+
+  .contactemail, .contactmessage, .contactname, .messagebox, .button{
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #contact {
+    margin-left: 1rem;
+    margin-top: 6rem;
+  }
+
+  .contactmap {
+    display: none;
+  }
+
+  .button {
+    margin-top: 0rem;
+    width: 90%;
+    padding: 0;
+    margin-bottom: 25%;
+  }
+
+  .mapaddress {
+    font-size: 1rem;
+    padding: 0rem;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  #contact {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px) {
+  #home {
+    width: 500px;
+    height: 500px;
+    top: 4rem;
+    margin-top: 2rem;
+    margin-left: -590px;
+    image-orientation: center center no-repeat;
+  }
+
+  .navbar {
+    top: 5rem;
+    height: 3.5rem;
+  }
+
+  .lotus {
+    top: 0;
+    width: 20%;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+  }
+
+  .harmonytext {
+    font-family: sans-serif;
+    color: #773136;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  form, .name, .email, .phone {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  #services {
+    padding-top: 10%;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .options {
+    padding-bottom: 10%;
+    line-height: normal;
+  }
+
+  table {
+    width: 100%;
+    margin: 0;
+  }
+
+  th, td {
+    width: 10rem;
+    font-size: 1.3rem;
+  }
+
+  .apptname, .apptemail, .apptphone {
+    width: 85%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 7%;
+  }
+
+  .name {
+    margin-top: 5rem;
+    margin-bottom: 0;
+    margin-left: 7%;
+    font-size: 1.25rem;
+  }
+
+  .email, .phone {
+    margin-left: 7%;
+    font-size: 1.25rem;
+  }
+
+  .pickerheading {
+    margin-top: 2%;
+    margin-left: 2rem;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+  }
+
+  label {
+    padding: 0;
+    font-size: 1.25rem;
+    margin-right: 0;
+  }
+
+  #datetimepicker2 {
+    margin-left: 2rem;
+    margin-top: 0;
+    padding-top: 0;
+    height: 3.5rem;
+  }
+
+  .appointment {
+    margin: 0;
+    margin-left: 5rem;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .thirty {
+    margin-left: 3.5rem;
+    margin-right: 0;
+  }
+
+  .hour {
+    margin-right: 0;
+  }
+
+  .contactbox {
+    width: 90%;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .messagebox {
+    height: 35%;
+    width: 90%;
+  }
+
+  .contactemail, .contactmessage, .contactname, .messagebox, .button{
+    margin-left: 0;
+    margin-bottom: .5rem;
+    padding-left: 0;
+    padding-bottom: .25rem;
+    font-size: 1.25rem;
+  }
+
+  #contact {
+    margin-left: 1rem;
+    margin-top: 6rem;
+  }
+
+  .contactmap {
+    display: none;
+  }
+
+  .button {
+    margin-top: 0rem;
+    width: 90%;
+    padding: 1;
+    margin-bottom: 35%;
+  }
+
+  .mapaddress {
+    font-size: 1.25rem;
+    padding: 0rem;
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 737px) and (max-width: 768px) {
+  .navbar {
+    top: 5rem;
+    height: 6rem;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .servicesheader {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+  }
+
+  .options {
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  table {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    width: 90%;
+    margin-left: 1rem;
+  }
+
+  td {
+    font-size: 1.75rem;
+  }
+
+  th {
+    font-size: 1.6rem;
+  }
+
+  .apptname, .apptemail, .apptphone {
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+    font-size: 2rem;
+  }
+
+  label {
+    font-size: 1.75rem;
+    padding: .2rem;
+  }
+
+  .thirty, .hour {
+    width: 3rem;
+    height: 2.5rem;
+    margin-left: 0;
+  }
+
+  .name {
+    margin-top: 12rem;
+    margin-left: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+  }
+
+  .email, .phone {
+    margin-left: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+  }
+
+  .pickerheading {
+    margin-top: 14rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.75rem;
+  }
+
+  #datetimepicker2 {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 0;
+    padding-right: 0;
+    height: 4rem;
+    width: 20rem;
+  }
+
+  form {
+    margin-left: 0;
+  }
+
+  label {
+    padding: 0;
+    margin-right: .25rem;
+  }
+
+  .appointment {
+    margin: 0;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .contactbox {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .messagebox {
+    height: 60%;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #contact {
+    margin-left: 1rem;
+    margin-top: 12rem;
+  }
+
+  .contactname, .contactemail, .contactmessage {
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-bottom: .5rem;
+  }
+
+  .contactmap {
+    display: block;
+    width: 100%;
+    margin-left: .5rem;
+    margin-top: 3rem;
+  }
+
+  .button {
+    margin-top: 1rem;
+    margin-bottom: 35%;
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+
+  .mapaddress {
+    font-size: 1.5rem;
+    padding: .2rem;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  #home {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    top: 20rem;
+    left: 0;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 10rem;
+    width: 100%;
+    padding: .5rem;
+    z-index: 10;
+    height: 10rem;
+  }
+
+  .lotus {
+    width: 15%;
+    padding: 2rem;
+  }
+
+  .harmonytext {
+    font-size: 3.5rem;
+  }
+
+  .nav-link {
+    font-size: 2.5rem;
+  }
+
+  .servicesheader {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .options {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  table {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-left: 3rem;
+    padding: 0;
+    text-align: center;
+    width: 90%;
+  }
+
+  td {
+    font-size: 2.5rem;
+  }
+
+  th {
+    font-size: 2.5rem;
+  }
+
+  .apptname, .apptemail, .apptphone {
+    width: 90%;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  label {
+    font-size: 2.5rem;
+    padding: .5rem;
+    margin-right: 1.2rem;
+  }
+
+  form {
+    margin-left: 0;
+  }
+
+  .thirty, .hour {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .name {
+    margin-top: 12rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    font-size: 2.5rem;
+  }
+
+  .email, .phone {
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    font-size: 2.5rem;
+  }
+
+  .pickerheading {
+    margin-top: 15rem;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+  }
+
+  #datetimepicker2 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    height: 5rem;
+    width: 25rem;
+  }
+
+  .appointment {
+    margin: 0;
+    margin-left: 7.25rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .contactbox {
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .messagebox {
+    height: 60%;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #contact {
+    margin-left: 1rem;
+    margin-top: 12rem;
+  }
+
+  .contactname, .contactemail, .contactmessage {
+    font-size: 2rem;
+    margin-left: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .contactmap {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    width: 90%;
+  }
+
+  .button {
+    margin-top: 1rem;
+    margin-bottom: 35%;
+    margin-left: 0;
+    width: 100%;
+    padding: .5rem;
+    font-size: 2rem;
+  }
+
+  .mapaddress {
+    font-size: 2.25rem;
+    padding: .2rem;
+  }
+
+}

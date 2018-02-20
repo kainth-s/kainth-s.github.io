@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="css/the-big-picture.css" rel="stylesheet">
+    <title>Harmony Massage</title>
+    <div class="harmonytext">
+      <img src="harmonyAssets/lotus.png" class="lotus">
+      <span><strong>Harmony</strong> Massage</span>
+    </div>
+
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container" id="navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" onclick="show('home')">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="show('services')">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="show('makeappt')">Make An Appointment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="show('contact')">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Page 1-->
+    <div class="container">
+      <div class="homepage" id="home" style="display:none">
+        <img src="harmonyAssets/relaxation1.jpg">
+      </div>
+    </div>
+
+      <!--Page 2-->
+    <div class="container-fluid">
+      <div id="services" style="display:none">
+        <div class="row">
+          <div class="col-sm-6 col-md-12 col-lg-12 col-xl-6">
+            <p class="servicesheader"><strong>Special massage options include:</strong></p>
+            <p class="options">Swedish, Deep Tissue, Prenatal, and Sports Massage</p>
+          </div>
+          <div class="col-sm-6 col-md-12 col-lg-12 col-xl-6">
+            <table border="1">
+              <tr class="horizontal">
+                <th></th>
+                <th>Regular</th>
+                <th>Special</th>
+              </tr>
+              <tr class="one">
+                <th class="minutes">30 Minute Massage</th>
+                <td>$39</td>
+                <td>$49</td>
+              </tr>
+              <tr class="two">
+                <th class="minutes">60 Minute Massage</th>
+                <td>$78</td>
+                <td>$88</td>
+              </tr>
+              <tr class="three">
+                <th class="minutes">Ten Massage Package</th>
+                <td>$450</td>
+                <td>$550</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Page 3-->
+    <div class="container-fluid">
+      <div id="makeappt" style="display:none">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <form>
+              <div class="name">
+                <p>Name</p>
+              </div>
+              <input type="text" class="apptname">
+              <div class="email">
+                <p>Email</p>
+              </div>
+              <input type="text" class="apptemail">
+              <div class="phone">
+                <p>Phone</p>
+              </div>
+              <input type="text" class="apptphone"></br>
+              <input type="radio" class="thirty" value="thirty" checked> <label>30 Min</label>
+              <input type="radio" class="hour" value="hour"> <label>1 Hour</label>
+            </form>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <p class="pickerheading"><strong>Choose a date and time for your appointment:</strong></p>
+              <div class="form-group">
+                  <div class="input-group date" id="datetimepicker2" data-target-input="nearest">
+                      <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker2"/>
+                      <div class="input-group-append" data-target="#datetimepicker2" data-toggle="datetimepicker">
+                          <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                      </div>
+                  </div>
+              </div>
+            <button class="appointment" onclick="show('confirmation')"> Make Appointment</button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="container-fluid">
+    <div id="confirmation" style="display:none">
+      <p class="appointmentmessage">You have successfully made an appointment! Please contact us within twenty four hours if you need to cancel your appointment.</p>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div id="contact" style="display:none">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="contactname">
+            <p>Name</p>
+          </div>
+          <input type="text" class="contactbox">
+          <div class="contactemail">
+            <p>Email</p>
+          </div>
+          <input type="text" class="contactbox">
+          <div class="contactmessage">
+            <p>Message</p>
+          </div>
+          <input type="text" class="messagebox">
+          <button class="button"><strong>SEND</strong></button>
+        </div>
+        <div class="col-md-7">
+          <p class="mapaddress">Harmony Massage</p>
+          <p class="mapaddress">154 North Druid Hills Rd.</p>
+          <p class="mapaddress">Atlanta, GA 30319</p>
+          <img src="harmonyAssets/contactmap.png" class="contactmap">
+        </div>
+      </div>
+    </div>
+      <footer>
+        <p class="copyright">© Harmony Massage 2018 |  Privacy Policy</p>
+      </footer>
+  </div>
+
+    <!-- Page Content -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker2').datetimepicker({
+                locale: 'en-us'
+            });
+        });
+    </script>
+
+    <script>
+    //loop through divs, hide not shown
+      var divs = [
+        'home',
+        'services',
+        'makeappt',
+        'contact',
+        'confirmation'
+      ]
+      function show(shown) {
+        document.getElementById(shown).style.display='block';
+          for (i = 0; i < divs.length; i++) {
+            if (divs[i] !== shown){
+              document.getElementById(divs[i]).style.display='none';
+            }
+          }
+        return false;
+      }
+      </script>
+
+      <script>
+        $('.nav-item').click(function(ev){
+          $('.navbar-nav .active').toggleClass('active')
+          $(ev.target).toggleClass('active')
+        })
+        window.onload = function(){
+          show('home');
+        }
+      </script>
+    </body>
+</html>
