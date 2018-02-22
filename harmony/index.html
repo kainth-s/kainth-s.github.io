@@ -108,8 +108,8 @@
                 <p>Phone</p>
               </div>
               <input type="text" class="apptphone"></br>
-              <input type="radio" class="thirty" value="thirty" checked> <label>30 Min</label>
-              <input type="radio" class="hour" value="hour"> <label>1 Hour</label>
+              <input type="radio" name="length" class="thirty" value="thirty" id="is_thirty" onchange="valueChanged()"> <label>30 Min</label>
+              <input type="radio" name="length" class="hour" value="hour" id="is_hour" onchange="valueChanged()"> <label>1 Hour</label>
             </form>
           </div>
 
@@ -151,7 +151,7 @@
             <p>Message</p>
           </div>
           <input type="text" class="messagebox">
-          <button class="button"><strong>SEND</strong></button>
+          <button class="button" onclick="show('contactconfirmation')"><strong>SEND</strong></button>
         </div>
         <div class="col-md-7">
           <p class="mapaddress">Harmony Massage</p>
@@ -161,6 +161,13 @@
         </div>
       </div>
     </div>
+
+    <div class="container-fluid">
+      <div id="contactconfirmation" style="display:none">
+        <p class="contactconfirm">You have successfully contacted us! We will get back to you within one to two business days.</p>
+      </div>
+    </div>
+
       <footer>
         <p class="copyright">© Harmony Massage 2018 |  Privacy Policy</p>
       </footer>
@@ -187,7 +194,8 @@
         'services',
         'makeappt',
         'contact',
-        'confirmation'
+        'confirmation',
+        'contactconfirmation'
       ]
       function show(shown) {
         document.getElementById(shown).style.display='block';
@@ -209,5 +217,22 @@
           show('home');
         }
       </script>
+
+      <script>
+          function valueChanged() {
+        if (document.getElementById("is_thirty").checked == true) {
+            document.getElementById("is_thirty").value = 1;
+            document.getElementById("is_hour").value = 0;
+        } else {
+            document.getElementById("is_thirty").value = 0;
+            document.getElementById("is_hour").value = 1;
+        }
+        console.log(document.getElementById("is_thirty").value);
+        console.log(document.getElementById("is_hour").value)
+      }
+      </script>
+
+
+
     </body>
 </html>

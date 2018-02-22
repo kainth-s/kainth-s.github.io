@@ -173,6 +173,25 @@ label {
   margin-right: 2rem;
 }
 
+.appointmentmessage {
+    margin-top: 10rem !important;
+    z-index: 10;
+    font-weight: bold;
+    color: #773136;
+    padding: 10rem;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .contactconfirm {
+    margin-top: 10rem !important;
+    z-index: 10;
+    font-weight: bold;
+    color: #773136;
+    padding: 10rem;
+    padding-top: 0;
+  }
+
 .pickerheading {
   z-index: 10;
   color: #535353;
@@ -397,7 +416,7 @@ footer {
     margin-top: 10rem !important;
     z-index: 10;
     font-weight: bold;
-    color: black;
+    color: #773136;
   }
 
   .appointment {
