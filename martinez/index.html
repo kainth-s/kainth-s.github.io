@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cantarell:700|Lato:700|Open+Sans" rel="stylesheet">
     <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
@@ -191,22 +192,29 @@
 
         <!-- FOOTER -->
       <footer>
-        <div id="newslettersection">
-          <p class="newslettertext">Sign up for our newsletter:</p>
-          <input type="text" class="newsletter" placeholder="Enter your email..."></br>
-          <input type="submit" class="newsletterbutton" value="Sign Up" onclick="show('signup')">
-        </div>
-        <div id="signup" style="display:none">
-          <p>You have successfully signed up for our newsletter!</p>
-        </div>
-        <p class="socialmedia">
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-tumblr-square"></i>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-pinterest-square"></i>
-          <i class="fab fa-instagram"></i>
-        </p>
-        <p class="copyright">&copy; 2018 Martinez Interior Design, Inc.</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="socialmedia">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-tumblr-square"></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-pinterest-square"></i>
+              <i class="fab fa-instagram"></i>
+            </p>
+            <p class="copyright">&copy; 2018 Martinez Interior Design, Inc.</p>
+          </div>
+          <div class="col-sm-6">
+            <div id="newslettersection">
+              <p class="newslettertext">Sign up for our newsletter:</p>
+              <input type="text" class="newsletter" placeholder="Enter your email..."><br>
+              <input type="submit" class="newsletterbutton" value="Sign Up" onclick="show('signup')">
+            </div>
+            <div id="signup" style="display:none">
+              <p>You have successfully signed up for our newsletter!</p>
+            </div>
+          </div>
+
+    </div>
       </footer>
     </div><!-- /.container -->
 

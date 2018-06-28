@@ -3,19 +3,25 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
-#home {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: fixed;
-  top: 7rem;
+
+ html, body {
+     height:100%;
+ }
+
+
+.homepage {
+  background: url("harmonyAssets/relaxation1.jpg");
+  overflow-x: hidden;
+  overflow-y: hidden;
+  top: 6rem;
   left: 0;
+  position: fixed;
+  background-size: contain;
 }
 
 .navbar {
   position: fixed;
-  top: 7rem;
+  top: 6rem;
   width: 100%;
   padding: .5rem;
   z-index: 10;
@@ -28,21 +34,15 @@ body {
 
 .lotus {
   top: 0;
-  width: 10%;
+  width: 7rem;
   padding: 1rem;
 }
 
 .harmonytext {
-  font-family: Sans-Serif;
-  font: Verdana;
+  font-family: 'Montserrat', sans-serif;
   color: #773136;
   font-size: 2.5rem;
-}
-
-#navigation {
-  background-color: #773136;
-  width: 100%;
-  margin: 0;
+  min-width: 100%;
 }
 
 .bg-dark {
@@ -287,7 +287,8 @@ footer {
   background-color: #535353;
   bottom: 0;
   left: 0;
-  position: absolute;
+  right: 0;
+  position: fixed;
   width: 100%;
   padding: 1rem;
 }
@@ -299,10 +300,9 @@ footer {
   font-size: 1rem;
   bottom: 0;
   right: 0;
-  padding-right: 1rem;
   text-align: right;
   margin: auto;
-  padding: .25rem;
+  padding: .5rem;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 349px) {
